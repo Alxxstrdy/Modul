@@ -1,6 +1,6 @@
 
 package modul1_202357201027;
-import javax.swing.*;
+import javax.swing.JOptionPane;
 public class Modul_B {
      public static void main(String[] args) {
          int data[][] = {
@@ -19,6 +19,7 @@ public class Modul_B {
                 }
                      System.out.println();
             }
+                System.out.println("Penjumlahan Index Kolom Ganjil");
                  int element = 0;
                  for (int i = 0; i < data.length; i++) {
          for (int j = 1; j < data[i].length; j += 2){
